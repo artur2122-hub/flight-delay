@@ -1,12 +1,25 @@
-# databases
-*.duckdb
-
-# model artifacts
-models/
-exports/
-reports/
-
-# editor / misc
-.vscode/
+# Python
 __pycache__/
 *.pyc
+.venv/
+.env
+.ipynb_checkpoints/
+
+# Data / DB / exports
+data/
+exports/
+*.duckdb
+*.db
+*.sqlite
+*.parquet
+*.csv
+
+# Models / artifacts
+models/
+reports/
+*.joblib
+*.pkl
+
+# Editor
+.vscode/
+.DS_Store
