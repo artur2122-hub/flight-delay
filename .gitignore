@@ -1,0 +1,12 @@
+# databases
+*.duckdb
+
+# model artifacts
+models/
+exports/
+reports/
+
+# editor / misc
+.vscode/
+__pycache__/
+*.pyc
